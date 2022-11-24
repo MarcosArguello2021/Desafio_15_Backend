@@ -54,7 +54,7 @@ app.use((req, res) => {
   res.status(404).render('failRoute')
 })
 
-const PORT = parseInt(process.argv[2]) || process.env.PUERTO || 8080
+const PORT = process.env.PORT || 3000
 app.set('port', PORT)
 
 if (modoCluster && cluster.isPrimary) {
