@@ -10,7 +10,7 @@ Realizar un cambio a elección en alguna vista, probar en forma local y subir nu
 
 Revisar a través de una consola local, los mensajes enviados por nuestro servidor en Heroku a su propia consola.
 
-## Como ejecutar el proyecto:
+## Como ejecutar el proyecto de manera local:
 
 * Ejecutar el comando `npm install`
 * Se debe crear un archivo de configuraracion `.env` con los siguientes datos
@@ -24,4 +24,10 @@ PUERTO = 8080
 ```
 
 * Ejecutar el comando `npm run start` o ` npm run start -- --puerto <n° de puerto>`
-* Para probar/testear los diferentes rutas y funcionalidades, se recomienda utilizar [Postman](https://www.postman.com/downloads/)
+* Para probar/testear los diferentes rutas y funcionalidades, se recomienda utilizar [Postman](https://www.postman.com/downloads/)´
+
+## Como ejecutar el proyecto en la nube:
+
+Ingresar al siguiente enlace:
+
+[https://coder-backend-heroku.herokuapp.com/]()
